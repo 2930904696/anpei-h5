@@ -90,7 +90,7 @@ body{
 .box-input{
     width: 100%;
     height: 43px;
-  
+    display: block;
     border:0;
     background: #F0F4FF;
     outline: 0;
@@ -112,13 +112,13 @@ body{
 
 .agree{
     visibility: hidden;
-    margin-top:16px;
     
 }
 .agree-row{
   text-align: center;
   font-size: 14px;
-  color:#999999
+  color:#999999;
+  margin-top: 25px;
 }
 .agree::before{
   content: "";
@@ -147,6 +147,10 @@ body{
     outline: 0;
     margin-top: 15px;
     box-shadow: 0 5px 5px #F77808;
+    font-weight: 600;
+}
+.group-submit-btn{
+    margin-top:25px;
 }
 .arrow{
     position: absolute;
@@ -156,7 +160,6 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
-
 
 .download {
     height: 17px;
