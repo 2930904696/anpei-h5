@@ -56,6 +56,15 @@ body{
     width: auto;
 }
 
+.group-picture {
+    width: 278px;
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    margin-left:-139px;
+    z-index: 10;
+}
+
 .box {
     box-sizing: border-box;
     width: 336px;
@@ -73,6 +82,9 @@ body{
     width:151px; 
     display: block;
     margin: auto auto 16px;
+}
+.box-input-group{
+    margin-top: 34px;
 }
 
 .box-input{
