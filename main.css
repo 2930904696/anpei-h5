@@ -120,6 +120,11 @@ body{
   color:#999999;
   margin-top: 25px;
 }
+
+.make-group-agree-row{
+    margin-top:15px ;
+}
+
 .agree::before{
   content: "";
   display: inline-block;
@@ -152,6 +157,27 @@ body{
 .group-submit-btn{
     margin-top:25px;
 }
+
+.make-group-submit-btn{
+    margin-top: 15px;
+}
+
+.make-group-box-title{
+   margin-top:59px ;
+}
+
+.groud-number{
+  border-top: 0;
+  margin-right:20px ;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.number{
+    padding: 15px;
+    border-top: 1px solid #bdb9b9;
+}
+
 .arrow{
     position: absolute;
     width: 14px;
