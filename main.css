@@ -78,6 +78,24 @@ body{
     margin-right: auto;
 }
 
+.lnvite-friends{
+    position: absolute;
+    left: 50%;
+    top: 1px;
+    transform: translateX(-50%);
+    font-weight:600;
+}
+.lnvite-friends-join{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight:600;
+}
+.make-group-qr-code{
+    width: 140px;
+    height: 140px;
+}
+
 .box-title {
     width:151px; 
     display: block;
@@ -166,13 +184,24 @@ body{
    margin-top:59px ;
 }
 
-.groud-number{
+.make-groud-number{
   border-top: 0;
   margin-right:20px ;
   font-weight: 500;
   padding: 15px;
+  position: relative;
 }
 
+.make-groud-regimental-commander{
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    bottom: 10px;
+    margin-left: 70px;
+    margin-bottom: 7px;
+    
+
+}
 .number{
     padding: 15px;
     border-top: 1px solid #bdb9b9;
